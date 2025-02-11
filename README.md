@@ -53,6 +53,17 @@ display_image(EPOCHS - 1)
 ## Resultados 📸
 El entrenamiento puede tomar varias horas dependiendo de la capacidad de la GPU o TPU utilizada. Los resultados generados en cada época son guardados en archivos de imagen, que se pueden visualizar durante y después del entrenamiento.
 
+### Ejemplo de Imágenes Generadas 🖼️
+
+A continuación, se muestran dos ejemplos de imágenes generadas durante el entrenamiento del modelo GAN:
+
+1. **Imagen generada en la época 02**:  
+   ![Imagen generada época 02](https://github.com/DavidMoCe/GAN-MNIST-FASHION/blob/main/image/start.png)
+
+2. **Imagen generada en la última época**:  
+   ![Imagen generada última época](https://github.com/DavidMoCe/GAN-MNIST-FASHION/blob/main/image/end.png)
+
+
 ## Licencia 📜
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
+Este proyecto está licenciado bajo la licencia **CC BY-NC 4.0**. Consulta el archivo [`LICENSE`](https://github.com/DavidMoCe/GAN-MNIST-FASHION/blob/main/LICENSE.txt) para más detalles.
 
