@@ -41,7 +41,7 @@ Both models (generator and discriminator) are optimized using the **Adam** optim
 - **LATENT_DIM**: Dimension of the noise vector used as input to the generator.
 - **BATCH_SIZE**: Number of images processed per batch during training.
 
-During training, the generator and discriminator compete in a zero-sum game. The discriminator tries to correctly classify real and generated images, while the generator tries to deceive the discriminator by creating images that look real. The losses of both models are calculated using *Binary Cross-Entropy*.
+During training, the generator and the discriminator compete in a game where the improvement of one makes it more difficult for the other. The discriminator tries to correctly classify real and generated images, while the generator tries to deceive the discriminator by creating images that look real. The losses of both models are calculated using *Binary Cross-Entropy*.
 
 ### Training Progress 📈
 At the end of each epoch, a set of images produced by the generator is generated and displayed to visualize the progress. The model saves the generated images at each epoch and allows you to see how they improve over time.
@@ -112,7 +112,7 @@ Ambos modelos (generador y discriminador) se optimizan con el optimizador **Adam
 - **LATENT_DIM**: Dimensión del vector de ruido utilizado como entrada del generador.
 - **BATCH_SIZE**: Número de imágenes procesadas por lote durante el entrenamiento.
 
-Durante el entrenamiento, el generador y el discriminador compiten en un juego de cero-suma. El discriminador intenta clasificar correctamente las imágenes reales y generadas, mientras que el generador intenta engañar al discriminador creando imágenes que parezcan reales. Las pérdidas de ambos modelos se calculan usando *Binary Cross-Entropy*.
+Durante el entrenamiento, el generador y el discriminador se enfrentan en una competencia donde la mejora de uno implica la dificultad del otro. El discriminador intenta clasificar correctamente las imágenes reales y generadas, mientras que el generador intenta engañar al discriminador creando imágenes que parezcan reales. Las pérdidas de ambos modelos se calculan usando *Binary Cross-Entropy*.
 
 ### Progreso del Entrenamiento 📈
 Al final de cada época, se genera un conjunto de imágenes producidas por el generador, que se muestran para visualizar el progreso. El modelo guarda las imágenes generadas en cada época y permite visualizar cómo mejoran con el tiempo.
